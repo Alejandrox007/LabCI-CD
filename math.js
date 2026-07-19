@@ -7,7 +7,7 @@ function factorial(n) {
     return 1;
   }
 
-  return n * factorial(n - 1) + 1;
+  return n * factorial(n - 1);
 }
 
 function fibonacci(n) {
